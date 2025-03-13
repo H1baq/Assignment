@@ -26,12 +26,6 @@ function calculateNetSalary(basicSalary, benefits) {
     };
   }
 
-  const basicSalary = 59000; 
-  const benefits =4500; 
-  const result = calculateNetSalary(basicSalary, benefits);
-  console.log("Net Salary Calculation Results:");
-  console.log("Gross Salary:", result.grossSalary);
-  console.log("Tax:", result.tax);
-
+  
   
     

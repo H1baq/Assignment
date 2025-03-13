@@ -7,9 +7,23 @@ C for marks between 50 and 59
 D for marks between 40 and 49
 E for marks below 40
 
+challenge 2: 
+ Speed Detector
+The goal of this challenge is to write a program that detects if a driver is speeding and calculates demerit points based on their speed.
 
+Problem Overview:
+The program will take the speed of a car as input (e.g., 80 km/h).
+If the speed is less than 70 km/h, it should print "Ok".
+If the speed is above 70 km/h, for every 5 km/h above the speed limit, the program will give the driver 1 demerit point.
+If the driver gets more than 12 demerit points, the program should print "License suspended"
 
-Challenge 3: Net Salary Calculator
+How the Program Works:
+The program calculates the difference between the car's speed and the speed limit (70 km/h).
+It then divides that difference by 5 to determine how many demerit points the driver should receive.
+If the total demerit points exceed 12, the driver’s license is suspended.
+
+Challenge 3:
+ Net Salary Calculator
 This challenge involves calculating an individual's net salary based on their basic salary and benefits. The program will calculate various deductions such as tax (Pay As You Earn - PAYE), NHIF (National Hospital Insurance Fund), and NSSF (National Social Security Fund).
 
 Problem Overview:

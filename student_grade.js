@@ -25,4 +25,3 @@
     }
     return Grades
 }
-console.log ("grades",studentGrades(110));
